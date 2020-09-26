@@ -3,6 +3,9 @@ from discord.ext import commands
 import random
 import os
 
+# URL for A Learner’s Glossary of Jamaican: Part of the Open Grammar Project
+# Work on Generating Phrases based on key words here: https://opengrammar.github.io/jam/glossary/
+
 BOT_TOKEN = os.enviorn('BOT_TOKEN')
 
 client = commands.Bot(command_prefix='$')
