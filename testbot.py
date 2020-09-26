@@ -1,8 +1,9 @@
 import discord
 from discord.ext import commands
 import random
+import os
 
-bot_token = 'NzU5MjE3OTk4NDA1MzA0MzUy.X26S3A.gxHxx09LT6WcDnu2-au-9NQF2GM'
+BOT_TOKEN = os.enviorn('BOT_TOKEN')
 
 client = commands.Bot(command_prefix='$')
 
@@ -42,4 +43,4 @@ async def q(ctx, *, question):
     await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)}')
 
 
-client.run(bot_token)
+client.run(BOT_TOKEN)
