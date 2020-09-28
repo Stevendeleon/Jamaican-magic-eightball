@@ -16,5 +16,5 @@ Installing
     py -3 -m pip install -U discord.py
 
 **Discord Bot Token**:
-- Must use your own ```env variable``` to replace : ```BOT_TOKEN = os.enviorn('BOT_TOKEN')```
+- Must use your own ```env variable``` to replace : BOT_TOKEN = os.enviorn.get```('BOT_TOKEN')```
 - Must have a Discord Server to invite the Bot as a bot
