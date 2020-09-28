@@ -13,7 +13,7 @@ client = commands.Bot(command_prefix='$')
 
 @client.event
 async def on_ready():
-    print('Brejren me ready Come Tru')
+    print('Mi ready')
 
 
 @client.event
@@ -29,19 +29,25 @@ async def ping(ctx):
 @client.command()
 async def q(ctx, *, question):
     responses = [
-        "It is certain",
-        "Without a doubt",
-        "Definitely",
-        "Most likely",
-        "Outlook good",
-        "Yes!",
-        "Try again",
-        "Reply hazy",
-        "Can't predict",
-        "No!",
-        "Unlikely",
-        "Sources say no",
-        "Very doubtful"
+        "Eh a certain",
+        "Widout a doubt",
+        "di outlook criss",
+        "yeh fah sure",
+        "mi nuh know bredren",
+        "mi nuh biznizz",
+        "Yah mi tink suh",
+        "If di fish come fram deep sea and teel yuh seh it deep, yuh cyaah seh a lie",
+        "Every hoe ha tem stick a bush",
+        "Wah sweet nanny goat ago run him belly",
+        "Chicken merry, hawk deh near",
+        "Mon tink he eh at steppa",
+        "di don Dada sen fi yuh, gwan wid it",
+        "PRISS mon a ball head, look ah di shine head man de out dea",
+        "A weh yuh wuk bredda",
+        "Yuh undestan wah mi a seh??",
+        "*Clicks* dis nanny raas..",
+        "BloOoOoOdseeed a wah ye ax me dat fah?",
+        "a walk good bredda... walk good"
     ]
     await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)}')
 
