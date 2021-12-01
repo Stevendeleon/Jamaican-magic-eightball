@@ -4,6 +4,13 @@ Jamaican Magic 8-Ball
 Discord bot using Python taking user input as question and returns randomized response with funny Jamaican Patois
  responses
 
+- This bot is currently being expanded for:
+- Translating english to patois (example: .translate <text goes here>)
+- Word of the day (example: .wod)
+- Magic Eight Ball: (example: .q <question goes here>)
+- For all commands .commands
+ 
+
 Installing
 ----------
 
